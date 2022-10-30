@@ -4,8 +4,8 @@ import SocketServer from "./socket"
 import SongInfo from "./web-shared/songInfo"
 
 export default class Player {
-  public trackUri = ""
-  public paused = true
+  public trackUri = "https://open.spotify.com/playlist/4Gj3iQdpx8ZybSkoSGoNSN?si=386eef7f26e04d56"
+  public paused = false
   public loadingTrack: NodeJS.Timeout | null = null
   public milliseconds = 0
   public locked = false
